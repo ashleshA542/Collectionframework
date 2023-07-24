@@ -16,6 +16,11 @@ public class QueueClass {
             System.out.println(iterator.next());
         }
 
+        priorityQueue.remove();
 
+        for (String string : priorityQueue
+                ) {
+            System.out.println(string);
+        }
     }
 }
